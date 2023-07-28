@@ -1,0 +1,242 @@
+@font-face {
+  font-family: 'Suisse Int l', sans-serif;
+  src: url("../fonts/Suisse\ Int\'l/Suisse Int'l.eot"), url("../fonts/Suisse\ Int\'l/Suisse Int'l.otf"), url("../fonts/Suisse\ Int\'l/Suisse Int'l.ttf"), url("../fonts/Suisse\ Int\'l/Suisse Int'l.woff");
+}
+@font-face {
+  font-family: 'SuisseIntl-Light', sans-serif;
+  src: url(../fonts/SuisseIntl-Light/SuisseIntl-Light.eot), url("../fonts/SuisseIntl-Light/SuisseIntl-Light.otf"), url("../fonts/SuisseIntl-Light/SuisseIntl-Light.ttf"), url("../fonts/SuisseIntl-Light/SuisseIntl-Light.woff");
+}
+body {
+  background: #f3f3f3;
+  color: #000000;
+  font-family: 'SuisseIntl-Light', sans-serif;
+  width: 1440px;
+  margin: 0 auto;
+}
+body .line {
+  border-bottom: 1px solid #8a8474;
+  margin-bottom: 49px;
+}
+body .btn {
+  color: #8a8474;
+  font-size: 22px;
+  border: 1px solid #8a8474;
+  border-radius: 25px;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  padding: 5px 11px 6px 17px;
+  text-align: center;
+  font-family: 'Suisse Int l', sans-serif;
+  margin-bottom: 23px;
+  transition: 0.3s ease;
+}
+body .btn:hover {
+  border: 1px solid transparent;
+  box-shadow: 2px 6px 10px 1px #696969;
+  -webkit-box-shadow: 2px 6px 10px 1px #696969;
+  -moz-box-shadow: 2px 6px 10px 1px #696969;
+  color: #696969;
+}
+body header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 60px;
+}
+body header nav p {
+  font-size: 43px;
+}
+body header nav .menu {
+  display: flex;
+  justify-content: space-between;
+}
+body header nav .menu li {
+  font-size: 22px;
+  font-family: 'Suisse Int l', sans-serif;
+  color: #000000;
+  margin-right: 50px;
+  transition: 0.3s ease;
+}
+body header nav .menu li:hover {
+  color: #8a8474;
+  border-bottom: 1px solid #8a8474;
+}
+body header nav .menu .btn-toggle {
+  display: flex;
+  align-items: center;
+}
+body header nav .menu .btn-toggle .dark {
+  border: 1px solid #000000;
+  background-color: #000;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  margin-right: 5px;
+}
+body header nav .menu .btn-toggle .light {
+  background-color: transparent;
+  border: 1px solid #000000;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+body header h1 {
+  font-size: 356px;
+  text-align: center;
+  margin-bottom: 259px;
+  margin: 0 60px 259px;
+}
+body .about {
+  display: flex;
+  justify-content: center;
+  margin: 0px 60px 245px;
+}
+body .about .left {
+  display: flex;
+  justify-content: start;
+  width: 50%;
+}
+body .about .location,
+body .about .date {
+  font-size: 22px;
+  text-align: left;
+  width: 50%;
+}
+body .about .right {
+  width: 50%;
+}
+body .about .text {
+  font-size: 43px;
+  text-align: left;
+}
+body .working {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  margin: 0 60px 164px;
+  align-items: flex-start;
+}
+body .working .left {
+  width: 40%;
+}
+body .working .left p {
+  font-size: 22px;
+  font-family: 'Suisse Int l', sans-serif;
+  font-weight: 700;
+}
+body .working .right {
+  width: 60%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+body .working .right p {
+  font-size: 22px;
+}
+body .work {
+  margin: 0 60px 231px;
+}
+body .work .work__items {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+body .work .work__items .work__item {
+  margin-right: 15px;
+}
+body .work .work__items .work__item:last-child {
+  margin-right: 0;
+}
+body .work .work__items p {
+  font-size: 22px;
+  color: #000000;
+  margin-bottom: 19px;
+  transition: 0.3s ease;
+}
+body .work .work__items p:hover {
+  color: #8a8474;
+}
+body .vision {
+  margin: 0 60px 397px;
+}
+body .vision .text {
+  font-size: 41px;
+  padding-right: 35px;
+  margin-bottom: 111px;
+}
+body .vision .counter__items {
+  display: flex;
+  justify-content: space-between;
+}
+body .vision .counter__items .counter__item {
+  width: 25%;
+  text-align: center;
+}
+body .vision .counter__items .counter__item p {
+  font-size: 26px;
+}
+body .vision .counter__items .counter__item span {
+  font-family: 'Suisse Int l', sans-serif;
+  font-size: 140px;
+}
+body .vision .counter__items .counter__item span sup {
+  font-size: 64px;
+  font-family: 'SuisseIntl-Light', sans-serif;
+}
+body .how__all {
+  font-size: 22px;
+  margin: 0 60px 244px;
+}
+body .how__all .how {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .how__all .how p {
+  display: block;
+  color: #8a8474;
+  font-family: 'Suisse Int l', sans-serif;
+  margin-right: 100px;
+}
+body .how__all .how .brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .how__all .how .brand p {
+  color: #000000;
+  margin-right: 100px;
+}
+body .how__all .how .btn {
+  margin-bottom: 0;
+}
+body .impact__all {
+  margin: 0 60px 220px;
+}
+body .impact__all .accept {
+  display: grid;
+  grid-template-columns: 1fr 2fr 3fr;
+}
+body .impact__all .accept h2 {
+  font-size: 45px;
+}
+body .impact__all .accept .text {
+  font-size: 34px;
+  margin-bottom: 73px;
+}
+body .impact__all .testimonial__item {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 3fr;
+  margin-bottom: 70px;
+}
+body .impact__all .testimonial__item p {
+  font-size: 22px;
+}
+body .impact__all .testimonial__item .text {
+  font-size: 20px;
+  line-height: 26px;
+}
