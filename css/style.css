@@ -49,6 +49,7 @@ body header nav p {
 body header nav .menu {
   display: flex;
   justify-content: space-between;
+  margin-left: 530px;
 }
 body header nav .menu li {
   font-size: 22px;
@@ -60,11 +61,11 @@ body header nav .menu li {
 body header nav .menu li:hover {
   color: #8a8474;
 }
-body header nav .menu .btn-toggle {
+body header nav .btn-toggle {
   display: flex;
   align-items: center;
 }
-body header nav .menu .btn-toggle .dark {
+body header nav .btn-toggle .dark {
   border: 1px solid #000000;
   background-color: #000;
   height: 20px;
@@ -74,7 +75,7 @@ body header nav .menu .btn-toggle .dark {
   -webkit-border-radius: 50%;
   margin-right: 5px;
 }
-body header nav .menu .btn-toggle .light {
+body header nav .btn-toggle .light {
   background-color: transparent;
   border: 1px solid #000000;
   height: 20px;
@@ -86,7 +87,6 @@ body header nav .menu .btn-toggle .light {
 body header h1 {
   font-size: 356px;
   text-align: center;
-  margin-bottom: 259px;
   margin: 0 60px 259px;
 }
 body .about {
@@ -283,7 +283,7 @@ body .with_us .with__item {
   width: 36%;
 }
 body .with_us .btn {
-  width: 25%;
+  width: 26%;
 }
 body .with_us h3 {
   font-size: 47px;
@@ -373,7 +373,7 @@ body.dark-theme {
 body.dark-theme .menu li {
   color: #f3f3f3;
 }
-body.dark-theme nav .menu .btn-toggle .dark {
+body.dark-theme nav .btn-toggle .dark {
   background-color: #F3F3F3;
   border: 1px solid #F3F3F3;
   height: 20px;
@@ -382,7 +382,7 @@ body.dark-theme nav .menu .btn-toggle .dark {
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
 }
-body.dark-theme nav .menu .btn-toggle .light {
+body.dark-theme nav .btn-toggle .light {
   background-color: transparent;
   border: 1px solid #F3F3F3;
   height: 20px;
