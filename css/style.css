@@ -59,7 +59,6 @@ body header nav .menu li {
 }
 body header nav .menu li:hover {
   color: #8a8474;
-  border-bottom: 1px solid #8a8474;
 }
 body header nav .menu .btn-toggle {
   display: flex;
@@ -137,31 +136,29 @@ body .working .right {
 body .working .right p {
   font-size: 22px;
 }
-body .work {
-  margin: 0 60px 231px;
-}
-body .work .work__items {
+body .work__all .work__items {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  margin: 0 60px 231px;
 }
-body .work .work__items .work__item {
+body .work__all .work__items .work__item {
   margin-right: 15px;
 }
-body .work .work__items .work__item:last-child {
+body .work__all .work__items .work__item:last-child {
   margin-right: 0;
 }
-body .work .work__items p {
+body .work__all .work__items p {
   font-size: 22px;
   color: #000000;
   margin-bottom: 19px;
   transition: 0.3s ease;
 }
-body .work .work__items p:hover {
+body .work__all .work__items p:hover {
   color: #8a8474;
 }
 body .vision {
-  margin: 0 60px 397px;
+  margin: 0 60px 177px;
 }
 body .vision .text {
   font-size: 41px;
@@ -189,12 +186,12 @@ body .vision .counter__items .counter__item span sup {
 }
 body .how__all {
   font-size: 22px;
-  margin: 0 60px 244px;
 }
 body .how__all .how {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 60px 244px;
 }
 body .how__all .how p {
   display: block;
@@ -208,35 +205,213 @@ body .how__all .how .brand {
   align-items: center;
 }
 body .how__all .how .brand p {
-  color: #000000;
   margin-right: 100px;
+  font-family: 'SuisseIntl-Light', sans-serif;
+  color: #000000;
 }
 body .how__all .how .btn {
   margin-bottom: 0;
 }
 body .impact__all {
+  margin-bottom: 220px;
+}
+body .impact__grid {
   margin: 0 60px 220px;
 }
-body .impact__all .accept {
+body .impact__grid .accept {
   display: grid;
   grid-template-columns: 1fr 2fr 3fr;
 }
-body .impact__all .accept h2 {
+body .impact__grid .accept h2 {
   font-size: 45px;
 }
-body .impact__all .accept .text {
+body .impact__grid .accept .text {
   font-size: 34px;
   margin-bottom: 73px;
 }
-body .impact__all .testimonial__item {
+body .impact__grid .testimonial__item {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 3fr;
   margin-bottom: 70px;
 }
-body .impact__all .testimonial__item p {
+body .impact__grid .testimonial__item p {
   font-size: 22px;
 }
-body .impact__all .testimonial__item .text {
+body .impact__grid .testimonial__item .text {
   font-size: 20px;
   line-height: 26px;
+}
+body .story .btn,
+body .story h2,
+body .story .text {
+  margin-left: 60px;
+  margin-right: 32px;
+}
+body .story h2 {
+  font-size: 114px;
+  margin-bottom: 111px;
+}
+body .story .photo {
+  margin-bottom: 80px;
+}
+body .story .photo img:not(:last-child) {
+  margin-right: 13px;
+}
+body .story .text {
+  display: flex;
+  margin-bottom: 346px;
+}
+body .story .text p {
+  font-size: 40px;
+  width: 35%;
+}
+body .story .text p + p {
+  font-size: 35px;
+  padding-left: 196px;
+  width: 65%;
+}
+body .with_us {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin: 0 60px 244px;
+}
+body .with_us .with__item1 {
+  width: 43%;
+}
+body .with_us .with__item {
+  width: 36%;
+}
+body .with_us .btn {
+  width: 25%;
+}
+body .with_us h3 {
+  font-size: 47px;
+}
+body .with_us .text {
+  display: flex;
+  justify-content: space-evenly;
+}
+body .with_us p {
+  display: block;
+  width: 25%;
+  font-size: 22px;
+}
+body .with_us p:last-child {
+  padding-left: 60px;
+}
+body .block__info {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 60px 72px;
+}
+body .block__info .block__info-item h4 {
+  font-size: 28px;
+  font-family: 'Suisse Int l', sans-serif;
+  margin-bottom: 19px;
+}
+body .block__info .block__info-item p {
+  font-size: 22px;
+  margin-bottom: 17px;
+}
+body .block__info .block__info-item p span {
+  color: #8a8474;
+}
+body .block__info .block__info-item input {
+  border-bottom: 1px solid #8a8474;
+  font-size: 22px;
+  margin-bottom: 50px;
+}
+body .block__info .block__info-item .email {
+  width: 225px;
+  margin-right: 30px;
+}
+body .block__info .block__info-item .arr {
+  position: relative;
+  right: 20px;
+  background-color: transparent;
+  border: 1px solid #8a8474;
+  border-radius: 50%;
+  padding: 6px 10px 5px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #8a8474;
+  transition: 0.3s ease;
+}
+body .block__info .block__info-item .arr:hover {
+  border: 1px solid transparent;
+  box-shadow: 2px 6px 10px 1px #696969;
+  -webkit-box-shadow: 2px 6px 10px 1px #696969;
+  -moz-box-shadow: 2px 6px 10px 1px #696969;
+  color: #696969;
+}
+body .block__info .block__info-item .social {
+  display: flex;
+  justify-content: space-between;
+}
+body .block__info .block__info-item .social a {
+  color: #000000;
+  transition: 0.3s ease;
+}
+body .block__info .block__info-item .social a:hover {
+  color: #8a8474;
+}
+body .bottom {
+  color: #8a8474;
+}
+body .bottom .line {
+  margin-bottom: 18px;
+}
+body .bottom p {
+  margin-left: 60px;
+  margin-bottom: 15px;
+}
+body.dark-theme {
+  color: #f3f3f3;
+  background: #000000;
+}
+body.dark-theme .menu li {
+  color: #f3f3f3;
+}
+body.dark-theme nav .menu .btn-toggle .dark {
+  background-color: #F3F3F3;
+  border: 1px solid #F3F3F3;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+body.dark-theme nav .menu .btn-toggle .light {
+  background-color: transparent;
+  border: 1px solid #F3F3F3;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+body.dark-theme .work__all .work__items p {
+  color: #f3f3f3;
+}
+body.dark-theme .work__all .work__items p:hover {
+  color: #8a8474;
+}
+body.dark-theme .btn:hover {
+  color: #f3f3f3;
+}
+body.dark-theme .how__all .how .brand p {
+  color: #f3f3f3;
+}
+body.dark-theme .block__info .block__info-item .social a {
+  color: #f3f3f3;
+}
+body.dark-theme .block__info .block__info-item .social a:hover {
+  color: #8a8474;
+}
+body.dark-theme .block__info .block__info-item .arr:hover {
+  color: #f3f3f3;
+  box-shadow: 3px 3px 8px 1px #424242;
+  -webkit-box-shadow: 3px 3px 8px 1px #424242;
+  -moz-box-shadow: 3px 3px 8px 1px #424242;
 }
